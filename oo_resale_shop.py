@@ -1,3 +1,4 @@
+from computer import *
 class ResaleShop:
 
     # What attributes will it need?
@@ -8,3 +9,14 @@ class ResaleShop:
         pass # You'll remove this when you fill out your constructor
 
     # What methods will you need?
+
+#below is for the by function 
+
+
+    
+
+   
+
+
+
+
