@@ -1,6 +1,7 @@
 class Computer:
 
-    # What attributes will it need?
+
+    #Below lists all the attributes that are going to be used to identify/describe the computer
     description: str
     processor_type: str
     hard_drive_capacity: int
@@ -9,8 +10,7 @@ class Computer:
     year_made: int
     price: int
 
-    # How will you set up your constructor?
-    # Remember: in python, all constructors have the same name (__init__)
+    #This code is the constructor for the attributes listed above. 
     def __init__(self, description, processor_type, hard_drive_capacity, memory, operating_system, year_made, price):
        self.description = description 
        self.processor_type = processor_type 
@@ -19,7 +19,8 @@ class Computer:
        self.operating_system = operating_system 
        self.year_made = year_made 
        self.price = price 
-   
+
+   #This code chunk prints out the details for the computer of interest. 
     def print_details(self): 
         print(self.description)
         print(self.processor_type)
@@ -28,9 +29,10 @@ class Computer:
         print(self.operating_system)
         print(self.year_made)
         print(self.price)
-        
+
+#This gives an example computer (not real) that will be used to test the code/debug it.       
 def main(): 
-    c = Computer("Mac Pro", "Cancer Crab", "45", "67", "windows", "2018", "3000")
+    c = Computer("MacBook", "Core", 120, 32, "Apple", 2012, 950)
     c.print_details()
 main()
 
