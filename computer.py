@@ -1,3 +1,10 @@
+"""  
+Filename: computer.py
+Description: Resale Shop Assignment
+Part of A2: Object-ification, CSC120: Object-Oriented Programming
+Author: Raley Long
+Date: 8 February 2023
+"""
 #This Class sets up and stores the important information required for the inventory list used in the oo_resale_shop file
 class Computer:
 

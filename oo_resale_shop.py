@@ -1,3 +1,12 @@
+
+"""  
+Filename: oo_resale_shop.py
+Description: Resale Shop Assignment
+Part of A2: Object-ification, CSC120: Object-Oriented Programming
+Author: Raley Long
+Date: 8 February 2023
+"""
+
 #This class below alters the inventory list depending on what has been bought, sold, changed, etc.
 from computer import *
 class ResaleShop:
