@@ -1,3 +1,4 @@
+#This Class sets up and stores the important information required for the inventory list used in the oo_resale_shop file
 class Computer:
 
 
